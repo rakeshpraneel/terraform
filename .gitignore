@@ -1,0 +1,26 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Exclude terraform.tfvars if they contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Override variables file if used for secrets
+override.tf
+override.tf.json
+_override.tf
+_override.tf.json
+
+# Include lock file if you want to lock provider versions (recommended), 
+# or uncomment the line below if you explicitly want to ignore it:
+.terraform.lock.hcl
+
+Terraform.gitignore
