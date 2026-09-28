@@ -23,8 +23,7 @@ The configuration defines a Render web service using the official Render Terrafo
 └── terraform/
     ├── main.tf
     ├── variables.tf
-    ├── schema.json
-    └── terraform.tfstate
+    └── schema.json
 ```
 
 ## Prerequisites
